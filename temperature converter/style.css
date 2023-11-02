@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: aquamarine;
+    background-color: black;
+}
+h1{
+    font-size: 3rem;
+    margin: 50px;
+}
+
+.container {
+    text-align: center;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(41, 41, 41, 0.336);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 30px;
+    width: 35%;
+    padding: 30px;
+}
+
+.input-container {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.input{
+    font-size: 2rem;
+}
+
+input[type="text"] {
+    font-size: 2rem;
+    width: 18%;
+    padding: 5px;
+    color: aqua;
+    background-color: black;
+}
+
+button {
+    padding: 5px 10px;
+    margin-top: 40px;
+    background-color: #10056e;
+    color: rgb(200, 255, 0);
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: 600;
+    width: 20%;
+    height: 40px;
+}
+
+button:hover{
+    transform: scale(1.1);
+    transition: all 0.2s ease;
+    background-color: rgb(1, 7, 53);
+}
+
+hr{
+    width: 100%;
+}
+
+.output-container {
+    margin-top: 20px;
+    font-size: 2rem;
+}
